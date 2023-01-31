@@ -1,0 +1,36 @@
+
+.table {
+    border-collapse: collapse;
+    width: 70%;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: whitesmoke;
+}
+
+tr:nth-child(odd) {
+    background-color: whitesmoke
+}
+
+th {
+    background-color: rgba(235, 231, 225, 0.767);
+    color: #00365c;
+}
+
+.container {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.data:hover {
+    color: indianred;
+    cursor: pointer;
+}
